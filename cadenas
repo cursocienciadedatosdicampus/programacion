@@ -1,5 +1,8 @@
 -EJERCICIOS DE CADENAS
--contabilizar la cantidad de caracteres diferentes que hay en una cadena
+-contabilizar la cantidad de caracteres diferentes que hay en una cadena, introducida por teclado
+
+	Ejemplo:
+	
 	AAABBBCCCAA
 	nos devolvería 3
 

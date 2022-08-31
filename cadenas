@@ -1,7 +1,7 @@
 -EJERCICIOS DE CADENAS
 	-contabilizar la cantidad de caracteres diferentes que hay en una cadena
 	AAABBBCCCAA
-	nos devolvería 4
+	nos devolvería 3
 
 	-Introducir cadena por teclado y comprimirla de la siguiente manera
 	BBBBAEEDDZZZZMMMMCCBBBB

@@ -5,6 +5,15 @@
 	
 	AAABBBCCCAA
 	nos devolvería 3
+	
+	
+cadena=input("introduce una cadena=")
+lista=[]
+for posicion in range(0,len(cadena)):
+  if cadena[posicion] not in lista:
+    lista.append(cadena[posicion])
+print(len(lista))
+print(lista)
 
 -Introducir cadena por teclado y comprimirla de la siguiente manera
 	BBBBAEEDDZZZZMMMMCCBBBB

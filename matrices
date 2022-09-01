@@ -1,0 +1,21 @@
+-crear una lista de listas (matriz) y girarla 90 grados a la derecha y 90 grados a la izda.
+-girarla 180 grados
+
+  ejemplo:
+  
+  matriz original
+   1  2  3
+   4  5  6
+   7  8  9
+   
+   matriz girada 90 grados a la derecha
+   7  4  1
+   8  5  2
+   9  6  3
+   
+   matriz girada 90 grados a la izda
+   3  6  9
+   2  5  8
+   1  4  7
+   
+   

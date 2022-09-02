@@ -1,0 +1,11 @@
+-CREAR UN PROGRAMA QUE MEDIANTE LA INTRODUCCIÓN DE UNA PALABRA, DIGA SI ES UN PALÍNDROMO O NO.
+ Un palindromo es una palabra que se lee igual de izda a drcha que de drcha a izda.
+ 1. aba 2. Ababa 3. Abalaba 4. acá 5. acurruca 6. ada (s.c.) 7. Ada (s.p.) 8. aérea 9. agá 10. Aibofobia 
+ 11. aja 12. Alá 13. ala (s.) 14. ala (s.) 15. alábala 16. aléjela 17. alela 18. alélela 19. allá 20. ama (s.) 
+ 
+ https://es.wikipedia.org/wiki/Pal%C3%ADndromo#:~:text=Un%20pal%C3%ADndromo%20(del%20griego%20%CF%80%CE%AC%CE%BB%CE%B9%CE%BD,Ana%2C%20Anna%2C%20Otto).
+-CREAR UN PROGRAMA QUE RECIBA UNA MATRIZ DE 9X9 Y DIGA SI ES O NO UN SUDOKU.
+https://es.wikipedia.org/wiki/Sudoku
+
+
+NOTA TRATAR DE UTILIZAR FUNCIONES!!!!!

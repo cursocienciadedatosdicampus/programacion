@@ -1,0 +1,78 @@
+-Realizar un cuadrado vacio, insertando el valor por teclado
+n=3
+***
+* *
+***
+
+n=5
+*****
+*   *
+*   *
+*   *
+*****
+
+
+-Realizar un cubo, insertando el valor por teclado
+
+n=4
+   ++++
+  +  ++
+ +  + +
+++++  +
++  + +
++  ++
+++++
+
+
+n=6
+     
+     ++++++
+    +    ++
+   +    + +
+  +    +  +
+ +    +   +
+++++++    +
++    +   +
++    +  +
++    + +
++    ++
+++++++
+
+-Realizar un cuadrado multinúmero multinivel, insertando el valor por teclado
+
+n=2
+11
+11
+
+n=3
+111
+121
+111
+
+n=4
+1111
+1221
+1221
+1111
+
+n=5
+11111
+12221
+12321
+12221
+11111
+
+-Realizar un cuadrado multinúmero multinivel inverso, insertando el valor por teclado
+
+n=4
+2222
+2112
+2112
+2222
+
+n=5
+33333
+32223
+32123
+32223
+33333

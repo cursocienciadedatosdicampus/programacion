@@ -1,0 +1,15 @@
+CONSULTAS SQL
+
+-Consulta base de datos de ejemplo W3schools, obtener el número de proveedores diferentes, que ha empleado cada cliente
+
+select Name,count(*) as total 
+from (
+select SupplierName,customers.CustomerID as customer, customers.CustomerName as Name
+from suppliers,products,orderdetails,orders,customers
+where suppliers.SupplierID=products.SupplierID
+and orderdetails.ProductID=products.ProductID
+and orderdetails.OrderID=Orders.OrderID
+and orders.CustomerID=customers.CustomerID
+group by SupplierName,customers.CustomerID 
+)
+group by customer

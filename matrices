@@ -27,3 +27,41 @@
    https://www.w3schools.com/python/python_arrays.asp
    CONCEPTOS DE MATRICES
    https://www.w3schools.in/python-data-science/matrices-in-python#:~:text=What%20is%20Matrix%20in%20Python%3F&text=In%20Python%2C%20these%20tables%20are,in%20the%20form%20of%20lists.&text=In%20the%20above%20code%20snippet,three%20rows%20and%20three%20columns.   
+
+********************************************************************************************
+RESOLUCIÓN MATRIZ GIRADA 90 GRADOS A LA DERECHA
+********************************************************************************************
+
+import math as m
+
+def imprimirmatriz(m):
+  for fila in m:
+      print(fila)
+
+
+n=int(input('introduce por tecla la dimension de la matriz'))
+
+matriz=[]
+
+# rellenamos la matriz
+for i in range(0,n):
+  lista=[]
+  for j in range(0,n):
+    lista.append(int(input('Introduce el valor de la posicion '+str(i)+','+str(j)+':')))
+  matriz.append(lista) # inserta la fila i de la matriz
+
+
+imprimirmatriz(matriz)
+
+f = m.floor(n/2) # elimina la parte decimal
+c = m.ceil(n/2) # apróxima al mayor número entero sin decimales, por ejemplo 3.3 devolveria 4 
+
+for x in range(0,f):
+  for y in range(0,c):
+    temp = matriz[x][y]
+    matriz[x][y] = matriz[y][n-1-x]
+    matriz[y][n-1-x] = matriz[n-1-x][n-1-y]
+    matriz[n-1-x][n-1-y] = matriz[n-1-y][x]
+    matriz[n-1-y][x] = temp
+
+imprimirmatriz(matriz)
